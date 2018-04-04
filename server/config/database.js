@@ -2,7 +2,7 @@
 Database Connection Settings
 *********************************************************/
 
-exports.conString = "postgres://admin:admin@localhost:5432/todos";
+exports.conString = "postgres://postgres:mysecretpassword@<POSTGRES IP CONTAINER>/crud-node";
 
 
 

@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "App demonstrating Postgres DB connection and Querying",
   "main": "node server.js",
+  "scripts": {
+    "prepare": "node db_setup/prepare.js"
+  },
   "author": "Michael Cullen",
   "dependencies": {
     "body-parser": "^1.10.0",
