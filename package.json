@@ -1,5 +1,5 @@
 {
-  "name": "Node-Express-Angular-Postgres-Todo",
+  "name": "crud-node-postgres",
   "version": "0.0.1",
   "description": "App demonstrating Postgres DB connection and Querying",
   "main": "node server.js",
