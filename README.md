@@ -53,7 +53,7 @@ This example was forked and used in [Docker para desenvolvedores Javascript / No
 
 * Start the node project
 ```
-  node start
+  node server.js
 ```
 
 * Browse to **http://localhost:3090**
