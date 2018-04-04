@@ -18,3 +18,5 @@ node_modules
 public/bower_components
 
 .DS_Store
+.c9/
+package-lock.json

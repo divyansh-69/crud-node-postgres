@@ -17,6 +17,9 @@ This example was forked and used in [Docker para desenvolvedores Javascript / No
   docker port <CONTAINER ID>
   docker container inspect --format '{{.NetworkSettings.IPAddress}}' <CONTAINER ID>
 ```
+
+* Use [pgAdmin](https://www.pgadmin.org/) to connect and create a database with name **crud-node**
+
 * Run Cloud9 container
 ```
   docker run -d -v $(pwd)/crud-node-postgres:/workspace -p 8181:8181 -p 3090:3090 jacksonpires/cloud9_nvm --auth username:password
@@ -33,19 +36,19 @@ This example was forked and used in [Docker para desenvolvedores Javascript / No
 
 * Install all the node packages listed in the package.json
 ```
-npm install
+  npm install
 ```
 
 * Installs the front end packages listed in the bower.json file
 ```
-  bower install
+ bower install --allow-root
 ```
 
 * Open **../server/config/database.js** and complete PostgreSQL database connection details
 
-* Prepare the database
+* Prepare the database (create table and populate)
 ```
-  node run prepare
+  node db_setup/prepare.js
 ```
 
 * Start the node project
