@@ -1,8 +1,8 @@
-## Node, Express, Postgres, Angular - CRUD Example
+# Node, Express, Postgres, Angular - CRUD Example
  
 This example was forked and used in [Docker para desenvolvedores Javascript / Node.JS](http://www.videosdeti.com.br/curso-docker-nodejs.html) course.
 
-# Steps to prepare Docker container:
+## Steps to prepare Docker container:
 
 * Run postgres container and verify Ports and IP Address
 ```
@@ -17,7 +17,7 @@ This example was forked and used in [Docker para desenvolvedores Javascript / No
 
 * Browse to **http://localhost:8181** to go inside Cloud9 container
 
-# On Cloud9 container run:
+## On Cloud9 container run:
 
 * Clone this project and enter in folder 
 ```
