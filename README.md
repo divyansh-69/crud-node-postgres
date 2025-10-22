@@ -1,12 +1,12 @@
 # Node, Express, Postgres, Angular - CRUD Example
  
-This example was forked and used in [Docker para desenvolvedores Javascript / Node.JS](http://www.videosdeti.com.br/curso-docker-nodejs.html) course.
+
 
 ## Starts cloning this project
 
 * Just clone
 ```
-  git clone https://github.com/jacksonpires/crud-node-postgres.git
+  git clone https://github.com/divyansh-69/crud-node-postgres.git
 ```
 
 ## Steps to prepare Docker container:
