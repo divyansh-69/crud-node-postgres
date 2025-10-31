@@ -4,7 +4,7 @@
 
 ## Starts cloning this project
 
-* Just clone
+* Just clone forked from another project
 ```
   git clone https://github.com/divyansh-69/crud-node-postgres.git
 ```
